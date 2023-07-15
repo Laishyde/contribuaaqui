@@ -89,6 +89,7 @@
 
  .icon {
      width: 400px;
+     margin-left: 50px;
 
 
 
@@ -148,7 +149,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     gap: 180px;
+     gap: 80px;
      margin-top: 50px;
    
    
@@ -235,7 +236,7 @@
      margin: 20px;
 
  }
- .btn3{
+ #openModal{
     margin-top: 50px;
  }
  .modal {
@@ -284,6 +285,13 @@
     border-bottom: 1px solid #000;
     width: 300px;
     border-radius: 0;
+ }
+ .hand{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
  }
 
  @media(max-width:900px) {

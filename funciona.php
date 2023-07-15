@@ -13,7 +13,7 @@
                     Cooking Organization é especializada na publicação de conteúdo dietético e na divulgação de uma
                     dieta
                     saudável.</p>
-                <button id="openModal">Abrir Modal</button>
+                <button id="openModal">Encontre um projeto</button>
                 <div id="modal" class="modal">
                     <div class="modal-content">
                         <h3>Faça uma doação</h3>

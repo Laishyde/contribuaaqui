@@ -1,7 +1,8 @@
 <?php include 'header.php' ?>
 
-<div>
-<img src="./assets/mao.png" alt="">
+<div class="hand">
+<img src="./assets/mao.png" width="300" alt="">
+<h2>Muito obrigado</h2>
 
 
 </div>

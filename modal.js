@@ -15,11 +15,13 @@ closeButton.addEventListener("click", function () {
     modal.style.display = "none";
 });
 
-// Evento de clique para enviar o valor e exibir a mensagem de agradecimento
+// Evento de clique para enviar o valor e redirecionar para "obrigado.php"
 enviarButton.addEventListener("click", function () {
     const valor = document.getElementById("valor").value;
-    mensagemElement.textContent = "Obrigado por enviar o valor " + valor + "!";
     modal.style.display = "none";
 
+    // Redirecionar para "obrigado.php"
     window.location.href = "obrigado.php";
 });
+
+
