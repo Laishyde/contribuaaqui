@@ -5,14 +5,10 @@
         <img src="./assets/mulher.png" width="400" alt="">
     </div>
     <div class="funciona">
-        <h3>Ajude-nos a lançar um livro de receitas
-            para pais e filhos</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
         <div class="test">
             <div class="paragrafo">
-                <p>Queremos criar um livro de culinária bonito e útil para pais e filhos se divertirem na cozinha. A Kid
-                    Cooking Organization é especializada na publicação de conteúdo dietético e na divulgação de uma
-                    dieta
-                    saudável.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, natus amet vel impedit similique earum quis nemo est porro asperiores, a maxime blanditiis veritatis eaque consectetur modi incidunt. Dolores, inventore.</p>
                 <button id="openModal">Encontre um projeto</button>
                 <div id="modal" class="modal">
                     <div class="modal-content">
@@ -32,7 +28,7 @@
         </div>
 
     </div>
-   <script src="modal.js"></script>
+    <script src="modal.js"></script>
 </div>
 
 

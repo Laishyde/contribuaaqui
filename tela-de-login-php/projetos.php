@@ -7,9 +7,8 @@
     <div class="box">
         <img class="moda" src="./assets/moda.png" width="500" alt="">
         <div class="box1">
-            <p class="contribua">Contribua com as crianças</p>
-            <p class="one">Queremos criar um livro de culinária bonito e útil para pais e filhos se divertirem na
-                cozinha.</p>
+            <p class="contribua">Lorem ipsum dolor sit amet consectetur</p>
+            <p class="one">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quam quidem repellat maxime, recusandae</p>
             <div class="porcentagem">
                 <div class="conteudo"></div>
             </div>

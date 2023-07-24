@@ -2,9 +2,11 @@ const rankContainer = document.getElementById('rank');
 let likeCount = 0;
 const maxLikes = 10;
 const userImageUrls = [
-  './assets/mao.png',
-  './assets/teste.png',
-  './assets/kkajsd.png',
+  './assets/guri.jpg',
+  './assets/homem.jpg',
+  './assets/lais.jpg',
+  './assets/gato.jpg',
+  './assets/menina.jpg',
   // Adicione mais URLs de imagens de perfil aqui
 ];
 let rankData = [];
