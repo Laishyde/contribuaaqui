@@ -1,0 +1,69 @@
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema</title>
+    <link rel="stylesheet" href="test.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&family=Roboto:ital@1&family=Tilt+Warp&display=swap"
+        rel="stylesheet">
+</head>
+
+
+
+<body>
+    <header>
+        <ul>
+            <li>contribua aqui</li>
+            <li><input type="text" placeholder="Pesquisar por projetos"></li>
+            <li><a href="index.html">início</a></li>
+            <li><a href="projetos.html">projetos</a></li>
+            <li> <a href="funciona.html">como funciona</a></li>
+            <li><a href="contato.html">contato</a></li>
+            <li><button>novo projeto</button></li>
+        </ul>
+    
+    </header>
+    <body>
+        <input type="checkbox" id="active">
+        <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+        <div class="wrapper">
+            <ul>
+                <li><a href="index.html">início</a></li>
+                <li><a href="projetos.html">projetos</a></li>
+                <li><a href="funciona.html">como funciona</a></li>
+                <li><a href="contato.html">contato</a></li>
+    
+            </ul>
+        </div>
+    <div class="content2">
+        <div class="gg">
+            <p id="mensagem"></p>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+    const texto = "Obrigada por fazer parte deste projeto.  Laís Cristina";
+let index = 0;
+
+function escrever() {
+  document.getElementById("mensagem").textContent += texto[index];
+  index++;
+
+  if (index < texto.length) {
+    setTimeout(escrever, 100); // Ajuste o valor para controlar a velocidade da digitação
+  }
+}
+
+escrever();
+
+   
+</script>
+
+</body>
+
